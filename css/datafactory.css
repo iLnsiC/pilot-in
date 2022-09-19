@@ -1,0 +1,73 @@
+.products-section{
+  margin-top: 400px;
+}
+.white-triangle{
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid white;
+  border-left: 100vw solid transparent;
+}
+.products-section .container {
+  padding-bottom: 200px;
+}
+.products-heading{
+  margin: 5rem 0;
+  font-size: 80px;
+  text-align: center;
+}
+.datafactory-container{
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.datafactory-info>*,  .datafactory-info li{
+  background: transparent;
+  color: var(--bleufoncé);
+}
+.datafactory-img, .datafactory-info{
+  margin: auto;
+  height: fit-content;
+  width: 40%;
+}
+.datafactory-img img{
+  width: 100%;
+  transform: scale(80%);
+  background: transparent;
+}
+.datafactory-info div{
+  font-size: 60px;
+}
+.datafactory-info > *{
+  padding-bottom: 50px;
+}
+.datafactory-info div i {
+  color: var(--Rougeorange);
+}
+.datafactory-info p{
+  font-size: 25px;
+}
+.datafactory-list{
+  font-size: 20px;
+}
+.datafactory-list li{
+  margin: 1rem 0;
+  padding: 1.5rem 0 1.5rem 1rem;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.datafactory-list i{
+  padding: 1rem;
+  margin-right: 1rem;
+  background: var(--Bleutrèspale);
+  transition: 0.5s;
+}
+.datafactory-list li:hover{
+  background: var(--Bleutrèspale);
+}
+.datafactory-list li:hover i{
+  background: white;
+}
+.datafactory-list i, .datafactory-info i{
+  color: var(--bleufoncé);
+}

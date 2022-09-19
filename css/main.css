@@ -1,0 +1,149 @@
+/*import font and styles*/
+@import "navbar.css";
+@import "dropdown.css";
+@import "hero.css";
+@import "info.css";
+@import "datafactory.css";
+@import "propilot.css";
+@import "trust.css";
+@import "article.css";
+@import "footer.css";
+@import "responsive.css";
+
+@font-face {
+    font-family: "Porpora";
+    src: url(../font/Porpora-Regular.ttf);
+}
+:root{
+  --Bleutexte : #26C1D9;
+  --bleufoncé: #072038;
+  --Bleutrèspale: #F0FDFF;
+  --Bleutextefooter: #156B79;
+  --Rougeorange: #FD7762;
+}
+/*main selectors*/
+* {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Porpora", serif;
+  background: var(--bleufoncé);
+  cursor: default;
+  color: white;
+  z-index: 0;
+}
+* > * {
+  z-index: 1;
+  background: transparent;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+li{
+  width: fit-content
+}
+i{
+  padding: 0 0.5rem;
+  background: transparent;
+}
+
+/*main classes*/
+.body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: url(background-pattern.png) repeat;
+  background-size: 300px;
+  opacity: 0.1;
+}
+.container{
+  margin: auto;
+  max-width: 1650px;
+}
+.bluetext{
+  color: var(--Bleutexte);
+}
+.btn{
+  padding: 0.8rem 1rem;
+  border-radius: 25px;
+  color: var(--bleufoncé);
+  transition: 0.5s;
+}
+.btn-arrow{
+  position: absolute;
+  margin-top: 2px;
+  right: 5px;
+  color: transparent !important;
+}
+.btn:hover{
+  padding-right: 2.2rem;
+  opacity: 0.8;
+}
+.btn:hover .btn-arrow {
+  color: var(--bleufoncé) !important;
+}
+.btn-blue{
+  background: var(--Bleutexte);
+}
+.btn-orange{
+  background: var(--Rougeorange);
+}
+.btn-transp{
+  padding: 0.8rem 1rem;
+  border-radius: 25px;
+  color: white;
+  background: transparent;
+}
+.btn-transp:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.button-transp{
+  border: none;
+  font-size: 16px;
+  padding: 0.8rem 0.8rem 0.8rem 1.2rem;
+  border-radius: 25px;
+}
+.button-transp:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.link{
+  width: fit-content;
+  cursor: pointer;
+}
+.card{
+  border-radius: 15px;
+}
+.card-white{
+  background: white;
+}
+.card>*{
+  background: transparent;
+}
+.socials{
+  color: var(--bleufoncé);
+  text-align: center;
+  transition: 0.5s;
+}
+.socials i, .socials ion-icon {
+  border: 1px solid var(--bleufoncé);
+  border-radius: 50%;
+  padding: 12px;
+  color: var(--bleufoncé);
+  font-size: 20px;
+  text-align: center;
+}
+.socials:hover{
+  color: white;
+}
+.socials:hover i, .socials:hover ion-icon{
+  background-color: var(--bleufoncé);
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,224 @@
+@media (max-width: 1700px)  {
+  .container {
+    width: 1200px;
+  }
+  .hero-image{
+    transform: scale(80%);
+  }
+  .cloud{
+    font-size: 180px;
+  }
+  .info-img{
+    transform: scale(70%);
+    top: -280px;
+    left: -15%;
+  }
+  .datafactory-info > *, .propilot-info > *{
+    padding: 0;
+  }
+  .client-img{
+    width: 700px;
+  }
+  .articles p{
+    font-size: 15px;
+  }
+  .identification {
+    width: 50%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1300px)  {
+  .container{
+    width: 1000px;
+  }
+  .hero-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-partners{
+    width: 50%;
+  }
+  .hero-image{
+    transform: scale(100%);
+  }
+  .info-img{
+    transform: scale(60%);
+    top: -230px;
+    left: -30%;
+  }
+  .info-text{
+    margin-bottom: 30px;
+  }
+  .datafactory-info div, .propilot-info div{
+    font-size: 40px;
+    margin-bottom: 1rem
+  }
+  .datafactory-info p, .propilot-info p{
+    font-size: 20px;
+  }
+  .datafactory-list li, .propilot-list li{
+    margin: 0.2rem 0;
+    padding: 0.8rem 0 0.8rem 0.8rem;
+  }
+  .datafactory-list, .propilot-list{
+    margin-bottom: 1rem;
+  }
+  .client-carrousel{
+    display: flex;
+    flex-direction: column;
+  }
+  .carrousel-bg {
+    background: linear-gradient(to bottom, transparent, var(--bleufoncé),var(--bleufoncé)) !important;
+  }
+  .client-img{
+    width: auto;
+    height: 500px;
+  }
+  .client-info, .carrousel-btns{
+    padding-left: 2rem;
+    padding-bottom: 1rem
+  }
+  .footer {
+    padding-top: 0;
+  }
+  .meet-card{
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .meet-info{
+    padding: 30px 0;
+  }
+  .meet-info>*{
+    margin: 0 0 1rem 2rem;
+  }
+  .meet-info h1{
+    font-size: 30px;
+  }
+  .meet-info h2{
+    font-size: 20px;
+    padding-bottom: 1rem;
+  }
+  .footer-info {
+    display: grid;
+    justify-content: center;
+    grid-gap: 2rem;
+    grid-template-areas:
+    "belgium france"
+    "get socials";
+  }
+  .footer-list {
+    margin: auto;
+    width: 80%;
+  }
+  .footer-list > * {
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  .info-france{
+    grid-area: france;
+  }
+  .info-belgium{
+    grid-area: belgium;
+  }
+  .space{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1000px)  {
+  .container{
+    width: 100%;
+  }
+  .dropdown-products{
+    top: -500px
+  }
+  .show{
+    top: auto;
+  }
+  .hero-heading{
+    font-size: 60px;
+  }
+  .hero-image{
+    transform: scale(70%);
+  }
+  .hero-cloud {
+  height: 150px;
+  transform: rotate(-5deg);
+  }
+  .cloud {
+  font-size: 110px;
+  line-height: 1.8;
+  }
+  .info-container {
+    height: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .info{
+    padding: 0;
+  }
+  .info-text {
+    margin: 2rem auto;
+  }
+  .info-img {
+    position: static;
+    transform: scale(100%);
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .info-link{
+    margin: auto;
+  }
+  .products-heading{
+    font-size: 50px;
+  }
+  .card-white{
+    margin: auto 2rem 100px 2rem;
+  }
+  .datafactory-img, .datafactory-info, .propilot-img, .propilot-info {
+  width: 90%;
+  }
+  .datafactory-info div, .propilot-info div{
+    font-size: 30px;
+  }
+  .datafactory-info p, .propilot-info p{
+    font-size: 15px;
+  }
+  .datafactory-info > *, .propilot-info > *{
+    margin: 0 2rem;
+  }
+  .datafactory-list, .propilot-list{
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+  .products-section .container {
+    padding-bottom: 100px;
+  }
+  .products-section{
+    margin-top: 100px;
+  }
+  .client-carrousel{
+    width: 80%;
+    margin: auto;
+  }
+  .client-img {
+  height: 300px;
+  }
+  .client-info p{
+    font-size: 20px;
+  }
+  .blog{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .articles{
+    padding: 50px 0;
+  }
+  .article {
+    width: 80%;
+    margin: 2rem auto;
+  }
+}
+@media (max-width: 800px) {
+}

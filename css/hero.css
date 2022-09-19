@@ -1,0 +1,61 @@
+/*hero styles*/
+.hero-container{
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+  "main photo"
+  "partners photo";
+}
+.hero-main{
+  width: 90%;
+  grid-area: main;
+  margin-top: 150px;
+}
+.hero-heading{
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+.hero-text{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.hero-partners{
+  display: flex;
+  justify-content: space-around;
+  grid-area: partners;
+}
+.partners-logo{
+  width: 25%;
+  transform: scale(0.5);
+  margin: auto;
+
+}
+.shrink{
+  height: 50%;
+  transform: scale(0.9);
+}
+.hero-cloud{
+  position: relative;
+  height: 300px;
+
+}
+.cloud{
+  display: block;
+  width: 99.8%;
+  height: 100%;
+  position: absolute;
+  transform: rotate(-2deg);
+  font-size: 200px;
+  font-weight: 800;
+  overflow: hidden;
+  line-height: 2;
+}
+.cloud span{
+  display: inline;
+  width: fit-content;
+}
+.stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px var(--Bleutexte);
+}

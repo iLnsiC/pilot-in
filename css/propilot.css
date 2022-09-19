@@ -1,0 +1,61 @@
+.propilot-container .propilot-bg{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.propilot-bg{
+  background: url('../img/half-circle-orange.svg') no-repeat !important;
+  background-position: right -100px top !important;
+  background-size: 1000px !important;
+}
+.propilot-info>*,  .propilot-info li{
+  background: transparent;
+  color: var(--bleufoncé);
+}
+.propilot-img, .propilot-info{
+  height: fit-content;
+  width: 40%;
+  margin: auto;
+}
+.propilot-img img{
+  width: 100%;
+  transform: scale(80%);
+  background: transparent;
+}
+.propilot-info div{
+  font-size: 60px;
+}
+.propilot-info > *{
+  padding-bottom: 50px;
+}
+.propilot-info div i {
+  color: var(--Rougeorange);
+}
+.propilot-info p{
+  font-size: 25px;
+}
+.propilot-list{
+  font-size: 20px;
+}
+.propilot-list li{
+  margin: 1rem 0;
+  padding: 1.5rem 0 1.5rem 1rem;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.propilot-list i{
+  padding: 1rem;
+  margin-right: 1rem;
+  background: var(--Bleutrèspale);
+  transition: 0.5s;
+}
+.propilot-list li:hover{
+  background: var(--Bleutrèspale);
+}
+.propilot-list li:hover i{
+  background: white;
+}
+.propilot-list i, .propilot-info i{
+  color: var(--bleufoncé);
+}

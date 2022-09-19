@@ -1,0 +1,82 @@
+.footer{
+  padding-top: 200px;
+  background: white;
+}
+.footer-bg{
+  background: url('../img/shape-parralaxe3.png') no-repeat;
+  background-size: 700px 1500px;
+  background-position: right bottom -700px;
+}
+.meet-card{
+  background: var(--bleufoncé);
+  display: flex;
+  gap: 15%;
+}
+.meet-info{
+  padding-top: 50px;
+}
+.meet-info>*{
+  margin-bottom: 30px;
+  padding-right: 4rem;
+}
+.meet-info h1{
+  font-size: 50px;
+}
+.meet-info h2{
+  font-size: 40px;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  text-align: center;
+}
+.footer-info li{
+  color: var(--bleufoncé);
+}
+.footer-title{
+  color: var(--Bleutextefooter) !important;
+  font-size: 20px;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-arrow{
+  position: absolute;
+  margin-top: 2px;
+  right: 0px;
+  color: transparent;
+  transition: 0.5s;
+}
+.footer-link:hover  .footer-arrow {
+  position: absolute;
+  color: var(--Rougeorange);
+  right: -2rem;
+}
+.space{
+  margin-top: 25px;
+}
+.socials-list {
+  text-align: left;
+  padding-top: 20px;
+}
+.footer-bande{
+  padding: 20px 0;
+  background: #ddd;
+}
+.footer-bande .container > * {
+  color: var(--bleufoncé);
+  font-weight: 400;
+}
+.footer-bande .container{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bande span{
+  color: var(--bleufoncé);
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
